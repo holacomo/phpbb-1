@@ -28,6 +28,6 @@ jobs:
       run: composer install --prefer-dist --no-progress
     
     -name: Install phpBB
-     run: |
-     cd phpBB
-    php ../composer.phar install
+      run: |
+        cd phpBB
+        php ../composer.phar install
